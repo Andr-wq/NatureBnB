@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #eeeeee;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 249, 244);
+    border-radius: 30px ;
+    width: 80vw;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.house{
+    background: url(./1321414.png);
+    background-position: center center;
+    border-radius:25px;
+    width: 45vw;
+    height: 100%;
+    background-size: cover;
+    margin: 10px;
+}
+.house h1{
+    color: rgb(255, 255, 255);
+    margin: 15px;
+    margin-top: 68vh;
+    font-size: 72px;
+}
+
+.form{
+    width: 50%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    width: 25vw;
+    margin: auto;
+}
+
+form h1{
+    text-align: center;
+}
+
+.input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0px;
+}
+
+.input-box input{
+    background-color: rgb(213, 213, 213);
+    border: none;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+.input-box input::placeholder{
+    color: rgb(19, 19, 19);
+}
+
+.input-box i{
+    position: absolute;
+    right: 20px;
+    font-size: 20px;
+    top: 15px ;
+}
+
+.remember {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.remember a{
+    text-decoration: none;
+    color: rgb(134, 134, 134);
+    transition: all 0.2s ease;
+}
+.remember a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.Btn{
+    margin: 10px 0px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    color: rgb(255, 249, 244);
+    background-color: #1f3946;
+    font-size: 16px;
+    transition: all 0.2s ease;
+}
+
+.Btn:hover{
+    background-color:#071922;
+    ;
+}
